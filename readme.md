@@ -53,12 +53,11 @@ python manage.py runserver
 ## Production link
 [https://flight-farepredictor.herokuapp.com/](https://flight-farepredictor.herokuapp.com/)
 
-## ML Algorithms Implementation
-Abhishek Jaiswal
 
-## Backend
-Neeraj Sharma
 
-## Designs
-Niharika Chaudhary
+## TEAM
+Devesh Kumar
+Vishal Singh
+Kunjan Kumar
+MajjKishore
 
