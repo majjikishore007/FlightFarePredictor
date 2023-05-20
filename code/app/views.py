@@ -5,13 +5,17 @@ import os
 
 modulepath = os.path.dirname(__file__)
 model = pickle.load(open(os.path.join(modulepath, 'flight_rf.pkl'), 'rb'))
+print("model ::::::::::::::",model)
 
 
+print("views ::::::::::::::::::::::::::::::::")
 def home(request):
+    print("home page ::::::::::::::::::::::::::::::::::::")
     return render(request, 'app/index.html')
 
 
 def test(request):
+    print("test :::::::::::::::::::::::::::......")
     # Date_of_Journey
     date_dep = request.POST.get("Dep_Time")
     Journey_day = int(pd.to_datetime(date_dep, format="%Y-%m-%dT%H:%M").day)
