@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 100%;
-  background: url("../images/flight.jpg") no-repeat center top;
+  background: url("../images/flight.png") no-repeat center top;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -33,7 +33,7 @@ ul {
 .booking-form-w3layouts {
   box-sizing: border-box;
   padding: 3em 3em;
-  background: rgba(0, 0, 0, 0.78);
+  backdrop-filter: blur(8px);
   width: 65%;
   margin: auto;
   margin-top: 8em;
@@ -81,6 +81,7 @@ h3.sub-heading-agileits {
   letter-spacing: 1px;
   font-family: "Raleway", sans-serif;
 }
+
 .booking-form-w3layouts input[type="text"],
 .booking-form-w3layouts input[type="email"],
 .booking-form-w3layouts textarea,
@@ -119,6 +120,7 @@ select.form-control option {
   color: #fff;
   padding: 0.5em 4em;
   border: none;
+  opacity:0.5;
   font-weight: 500;
   font-size: 1.2em;
   margin-top: 1em;

@@ -147,7 +147,6 @@ def test(request):
             d_Kolkata,
             d_New_Delhi
         ]])
-
         output = prediction[0]
         adult = request.POST.get('adultcount')
         children = request.POST.get('childrencount')

@@ -50,8 +50,8 @@ django-admin startproject 'project_name'
 python manage.py runserver
 ```
 
-## Production link
-[https://flight-farepredictor.herokuapp.com/](https://flight-farepredictor.herokuapp.com/)
+## Google Colab link 
+[google-colab](https://colab.research.google.com/drive/1E3U3kLmxVQZLrLdYf49pr9U97z3b9ddk?usp=sharing)
 
 
 
